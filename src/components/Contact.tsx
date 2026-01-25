@@ -62,10 +62,10 @@ const Contact = () => {
                 <div>
                   <p className="text-xs text-muted-foreground font-body mb-1">Email</p>
                   <a
-                    href="mailto:haileamlak@security.dev"
+                    href="mailto:haileamlak323@gmail.com"
                     className="text-sm text-foreground font-body hover:text-primary transition-colors"
                   >
-                    haileamlak@security.dev
+                    haileamlak323@gmail.com
                   </a>
                 </div>
               </div>
@@ -78,7 +78,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-xs text-muted-foreground font-body mb-1">Location</p>
-                  <p className="text-sm text-foreground font-body">Ethiopia</p>
+                  <p className="text-sm text-foreground font-body">Addis Ababa, Ethiopia</p>
                 </div>
               </div>
             </div>

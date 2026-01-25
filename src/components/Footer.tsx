@@ -4,9 +4,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Twitter, href: "#", label: "Twitter" },
+    { icon: Github, href: "https://github.com/0xh4il3x", label: "GitHub" },
+    { icon: Linkedin, href: "https://linkedin.com/in/haileamlaksahle", label: "LinkedIn" },
+    { icon: Twitter, href: "https://x.com/Sahle_H", label: "Twitter" },
   ];
 
   return (
