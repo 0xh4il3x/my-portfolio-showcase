@@ -14,9 +14,9 @@ const Footer = () => {
       <div className="container max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center gap-2">
-            <span className="font-display text-xl text-gradient">AM</span>
+            <span className="font-display text-xl text-gradient">HS</span>
             <span className="text-muted-foreground font-body text-sm">
-              © {currentYear} Alex Morgan
+              © {currentYear} Haileamlak Sahle
             </span>
           </div>
 

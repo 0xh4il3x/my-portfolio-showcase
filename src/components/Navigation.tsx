@@ -31,7 +31,7 @@ const Navigation = () => {
     >
       <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="font-display text-xl font-medium text-gradient">
-          AM
+          HS
         </a>
 
         {/* Desktop Navigation */}
