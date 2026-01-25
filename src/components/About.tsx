@@ -7,8 +7,8 @@ const About = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const skills = [
-    "React", "TypeScript", "Next.js", "Node.js",
-    "Figma", "UI/UX Design", "Framer Motion", "Tailwind CSS"
+    "Penetration Testing", "Vulnerability Assessment", "Web App Security",
+    "Network Security", "Burp Suite", "Metasploit", "Python", "Kali Linux"
   ];
 
   return (
@@ -24,22 +24,24 @@ const About = () => {
               About Me
             </p>
             <h2 className="font-display text-4xl md:text-5xl font-medium mb-6">
-              Turning ideas into
-              <span className="text-gradient"> reality</span>
+              Securing systems
+              <span className="text-gradient"> ethically</span>
             </h2>
             <div className="space-y-4 text-muted-foreground font-body leading-relaxed">
               <p>
-                I'm a creative developer with over 5 years of experience building 
-                digital products. I specialize in creating intuitive, accessible, 
-                and performant web applications.
+                I'm an ethical hacker passionate about cybersecurity. I help 
+                organizations identify and fix vulnerabilities before malicious 
+                actors can exploit them.
               </p>
               <p>
-                My approach combines technical expertise with a keen eye for design, 
-                ensuring every project not only works flawlessly but looks stunning too.
+                My expertise spans penetration testing, vulnerability assessments, 
+                and security audits. I believe in making the digital world safer 
+                through responsible disclosure and proactive security measures.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies, 
-                contributing to open source, or sketching interface ideas.
+                When I'm not hunting bugs, you'll find me participating in CTF 
+                competitions, contributing to security research, or sharing 
+                knowledge with the infosec community.
               </p>
             </div>
           </motion.div>
@@ -69,9 +71,9 @@ const About = () => {
 
             <div className="grid grid-cols-3 gap-6 pt-8 border-t border-border">
               {[
-                { number: "5+", label: "Years Experience" },
-                { number: "50+", label: "Projects Completed" },
-                { number: "30+", label: "Happy Clients" },
+                { number: "100+", label: "Vulnerabilities Found" },
+                { number: "50+", label: "Pentests Completed" },
+                { number: "20+", label: "Clients Secured" },
               ].map((stat, index) => (
                 <motion.div
                   key={stat.label}

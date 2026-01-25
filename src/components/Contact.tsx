@@ -35,8 +35,8 @@ const Contact = () => {
             Let's work <span className="text-gradient">together</span>
           </h2>
           <p className="text-muted-foreground font-body max-w-xl mx-auto">
-            Have a project in mind? I'd love to hear about it. Send me a message 
-            and let's create something amazing together.
+            Need a security assessment? Looking to strengthen your defenses? 
+            Let's discuss how I can help secure your systems.
           </p>
         </motion.div>
 
@@ -54,10 +54,10 @@ const Contact = () => {
               <div>
                 <h3 className="font-display text-lg mb-1">Email</h3>
                 <a
-                  href="mailto:hello@alexmorgan.dev"
+                  href="mailto:haileamlak@security.dev"
                   className="text-muted-foreground font-body hover:text-primary transition-colors"
                 >
-                  hello@alexmorgan.dev
+                  haileamlak@security.dev
                 </a>
               </div>
             </div>
@@ -69,14 +69,14 @@ const Contact = () => {
               <div>
                 <h3 className="font-display text-lg mb-1">Location</h3>
                 <p className="text-muted-foreground font-body">
-                  San Francisco, CA
+                  Ethiopia
                 </p>
               </div>
             </div>
 
             <div className="pt-6 border-t border-border">
               <p className="text-sm text-muted-foreground font-body">
-                Available for freelance projects and full-time opportunities.
+                Available for security assessments, penetration testing, and consulting.
               </p>
             </div>
           </motion.div>

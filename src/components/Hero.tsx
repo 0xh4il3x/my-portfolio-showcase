@@ -31,7 +31,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-muted-foreground text-sm md:text-base tracking-[0.3em] uppercase mb-6 font-body"
           >
-            Creative Developer & Designer
+            Ethical Hacker & Security Researcher
           </motion.p>
           
           <motion.h1
@@ -40,9 +40,9 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="font-display text-5xl md:text-7xl lg:text-8xl font-medium mb-8 tracking-tight"
           >
-            Hi, I'm <span className="text-gradient">Alex</span>
+            Hi, I'm <span className="text-gradient">Haileamlak</span>
             <br />
-            <span className="text-muted-foreground">Morgan</span>
+            <span className="text-muted-foreground">Sahle</span>
           </motion.h1>
           
           <motion.p
@@ -51,8 +51,8 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 font-body leading-relaxed"
           >
-            I craft digital experiences that blend beautiful design with seamless functionality. 
-            Currently focused on creating products that people love to use.
+            I find vulnerabilities before the bad guys do. Specializing in penetration testing, 
+            vulnerability assessment, and helping organizations strengthen their security posture.
           </motion.p>
 
           <motion.div
