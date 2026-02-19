@@ -1,4 +1,3 @@
 # This is my portfolio:
 
-## Go To
-**URL**: https://haileamlaksahle.netlify.app
+**Go To**  https://haileamlaksahle.netlify.app
